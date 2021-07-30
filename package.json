@@ -1,0 +1,20 @@
+{
+  "name": "electron_app",
+  "version": "1.0.0",
+  "description": "simple electron app",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron src/index.js",
+    "build":"npx electron-packager . AppName --platform=win32 --asar"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron-packager": "^15.3.0",
+    "electron-reload": "*"
+  },
+  "devDependencies": {
+    "electron": "^13.1.7"
+  }
+}
